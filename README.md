@@ -5,8 +5,11 @@
  4) Enjoy !
 
 GET     :  ...index.php/ge?t=persona
+
 PUT     :  ...index.php/pu?t=persona&id=x&..[params]
+
 DELETE  :  ...index.php/de/x?t=persona
+
 POST    :  No funciona, te odio !
 
 Donde 'x' corresponde a un id de BBDD
