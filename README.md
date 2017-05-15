@@ -9,6 +9,6 @@
 #DELETE  :  ...index.php/de/x?t=persona
 #POST    :  No funciona, te odio !
 #
-Donde 'x' corresponde a un id de BBDD
+#Donde 'x' corresponde a un id de BBDD
 # By Blillo :)
 #
