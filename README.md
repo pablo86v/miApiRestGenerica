@@ -14,5 +14,7 @@ POST    :  No funciona, te odio !
 
 Donde 'x' corresponde a un id de BBDD
 #
+# PD: Para que funcione, la entidad debe tener un campo "id" como identificador principal. Es una limitación.
+#
 # By Blillo :)
 #
