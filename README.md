@@ -11,8 +11,8 @@ PUT     :  ...index.php/put?t=alumno&id=x&[params]
 
 DELETE  :  ...index.php/del/x?t=alumno
 
-POST    :  ...index.php/post/x?t=alumno
-(enviar por body los valores para el insert)
+POST    :  ...index.php/post?t=alumno
+(enviar por body los valores para el insert, con el id=null ya que lo resuelve mySQL)
 
 Donde 'x' corresponde a un id de BBDD
 #
