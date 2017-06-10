@@ -5,13 +5,14 @@
  4) Modificar /clases/FuncionesEntidades.php agregando la entidad nueva en el switch de la función getObjEntidad()
  5) Enjoy !
 
-GET     :  ...index.php/ge?t=persona
+GET     :  ...index.php/all?t=alumno
 
-PUT     :  ...index.php/pu?t=persona&id=x&..[params]
+PUT     :  ...index.php/put?t=alumno&id=x&[params]
 
-DELETE  :  ...index.php/de/x?t=persona
+DELETE  :  ...index.php/del/x?t=alumno
 
-POST    :  No funciona, te odio !
+POST    :  ...index.php/post/x?t=alumno
+(enviar por body los valores para el insert)
 
 Donde 'x' corresponde a un id de BBDD
 #
