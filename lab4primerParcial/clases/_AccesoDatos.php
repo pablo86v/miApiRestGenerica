@@ -8,8 +8,8 @@ class AccesoDatos
     private function __construct()
     {
         //***************** CONFIGURAR CONEXIÓN EN LAS SIGUIENTES VARIABLES *****************
-            $myDBName = "u524020682_pps";
-            $myUser ="u524020682_pps";
+            $myDBName = "u524020682_lab4";
+            $myUser ="u524020682_lab4";
             $myPassWord = "quesito";
         //***********************************************************************************    
 
