@@ -9,8 +9,8 @@ class AccesoDatos
     {
         //***************** CONFIGURAR CONEXIÓN EN LAS SIGUIENTES VARIABLES *****************
             $myServer = "localhost";                
-            $myDBName = "u524020682_bbdd";
-            $myUser ="u524020682_user";
+            $myDBName = "u524020682_pps";
+            $myUser ="u524020682_pps";
             $myPassWord = "quesito";
         //***********************************************************************************    
 
