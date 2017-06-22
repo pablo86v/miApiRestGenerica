@@ -1,9 +1,15 @@
 <?php
 
 require_once "_AccesoDatos.php";
+
+require_once "Usuario.php";
 require_once "Persona.php";
-
-
+require_once "Cliente.php";
+require_once "Empleado.php";
+require_once "Sucursal.php";
+require_once "Sucursal_Empleado.php";
+require_once "Propiedad.php";
+require_once "Reserva_Venta.php";
 
 
 class Funciones
@@ -16,12 +22,37 @@ class Funciones
      public static function getObjEntidad($EntityName){
         switch (trim($EntityName)) 
         {
+			case "usuario":
+			$objEntidad = new Usuario();
+			break;
+		
+			case "persona":
+			$objEntidad = new Persona();
+			break;
 
-		  case "persona":
-				$objEntidad = new Persona();
-				break;
+			case "cliente":
+			$objEntidad = new Cliente();
+			break;
 
+			case "empleado":
+			$objEntidad = new Empleado();
+			break;
 
+			case "sucursal":
+			$objEntidad = new Sucursal();
+			break;
+
+			case "sucursal_empleado":
+			$objEntidad = new Sucursal_Empleado();
+			break;
+
+			case "propiedad":
+			$objEntidad = new Propiedad();
+			break;
+
+			case "reserva_venta":
+			$objEntidad = new Reserva_Venta();
+			break;
 				
         }//switch   
         return  $objEntidad;
