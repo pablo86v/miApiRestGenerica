@@ -5,13 +5,13 @@
 
 //	Atributos
 
-	public $id;
-	public $idPropiedad;
-	public $idUsuario;
-	public $idSucursal;
-	public $fecha_ini;
-	public $fecha_fin;
-	public $monto;
+	public $id          ;
+	public $idPropiedad ;
+	public $idUsuario	;
+	public $idSucursal	;
+	public $fecha_ini	;
+	public $fecha_fin	;
+	public $monto		;
 
 
 

@@ -8,7 +8,6 @@
 	public $id;
 	public $idPersona;
 	public $idUsuario;
-	public $idEmpVendedor;
 
 
 
@@ -17,8 +16,7 @@
 			$consulta->bindValue(':id'            ,$cliente->id            , \PDO::PARAM_INT);
 			$consulta->bindValue(':idPersona'     ,$cliente->idPersona     , \PDO::PARAM_INT);
 			$consulta->bindValue(':idUsuario'     ,$cliente->idUsuario     , \PDO::PARAM_INT);
-			$consulta->bindValue(':idEmpVendedor' ,$cliente->idEmpVendedor , \PDO::PARAM_INT);
-		
+					
 
 				
 			return $consulta;

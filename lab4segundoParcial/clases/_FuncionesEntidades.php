@@ -132,7 +132,7 @@ class Funciones
 	    	//Consulto los atributos de la clase para armar la query	    	
 			$vars_clase = get_class_vars(get_class($objEntidad));
 			$myQuery = "insert into " . $datosRecibidosQS['t'] ." (" ;
-			$myQueryAux ;
+			$myQueryAux = "";
 			foreach ($vars_clase as $nombre => $valor) {
 					//Armo la query según los atributos de mi objeto
 					if ($nombre != null ){

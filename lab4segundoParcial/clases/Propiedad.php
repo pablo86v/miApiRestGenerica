@@ -5,15 +5,15 @@
 
 //	Atributos
 
-	public $id;
-	public $idCliente;
-	public $idSucursal;
-	public $tipo;
-	public $domicilio;
-	public $localidad;
-	public $coordenadas;
-	public $cotizacion;
-	public $imagenes;
+	public $id          ;
+	public $idCliente   ;
+	public $idSucursal  ;
+	public $tipo        ;
+	public $domicilio   ;
+	public $localidad   ;
+	public $coordenadas ;
+	public $cotizacion  ;
+	public $imagenes    ;
 
 
 //	Configurar parámetros para las consultas
