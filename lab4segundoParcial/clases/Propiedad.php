@@ -9,6 +9,7 @@
 	public $idCliente   ;
 	public $idSucursal  ;
 	public $tipo        ;
+	public $descripcion ;
 	public $domicilio   ;
 	public $localidad   ;
 	public $coordenadas ;
@@ -22,6 +23,7 @@
 			$consulta->bindValue(':idCliente'	, $propiedad->idCliente	  , \PDO::PARAM_INT);
 			$consulta->bindValue(':idSucursal'	, $propiedad->idSucursal  , \PDO::PARAM_INT);
 			$consulta->bindValue(':tipo'    	, $propiedad->tipo   	  , \PDO::PARAM_STR);
+			$consulta->bindValue(':descripcion' , $propiedad->descripcion , \PDO::PARAM_STR);
 			$consulta->bindValue(':domicilio'   , $propiedad->domicilio	  , \PDO::PARAM_STR);
 			$consulta->bindValue(':localidad'   , $propiedad->localidad	  , \PDO::PARAM_STR);
 			$consulta->bindValue(':coordenadas' , $propiedad->coordenadas , \PDO::PARAM_STR);
